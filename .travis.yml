@@ -6,7 +6,8 @@ rvm:
 gemfile: Gemfile.ci
 
 matrix:
-  exculde:
+  include:
     - rvm: 1.9.3
+      gemfile: Gemfile.ci
   #allow_failures:
    # - rvm: 1.8.7
