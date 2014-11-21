@@ -7,7 +7,7 @@ gemfile: Gemfile.ci
 
 matrix:
   include:
-    - rvm: 1.9.3
+    - rvm: 2.1.1
       gemfile: Gemfile.ci
   exclude:
     - rvm: 2.0.0
